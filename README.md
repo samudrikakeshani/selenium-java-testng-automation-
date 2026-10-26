@@ -1,44 +1,66 @@
-
 # Selenium Java Test Automation
 
-## About This Project
+A UI test automation project using Selenium WebDriver, Java, TestNG, and Maven.
 
-This project demonstrates my practical learning in UI test automation using Selenium WebDriver, Java, and TestNG.
+## About the Project
 
-The goal is to build a structured automation suite with reusable test code, reliable assertions, and clear test execution results.
+This project demonstrates browser automation, explicit waits, element identification, and assertions through a sample login workflow.
 
-## Technologies
+## Tech Stack
 
 - Java
 - Selenium WebDriver
 - TestNG
 - Maven
-- GitHub
+- Chrome browser
 
-## Planned Test Scenarios
+## Test Coverage
 
-- Verify that the login page loads successfully
-- Verify login with valid credentials
-- Verify login with invalid credentials
-- Verify required-field validation
-- Verify navigation after successful login
+- Verify the login page URL
+- Verify the presence of the username field
+- Enter login credentials
+- Submit the login form
+- Wait for the expected page element
+- Validate the manager page heading
 
-## Automation Practices
+## Project Structure
 
-- Organizing tests using a maintainable project structure
-- Using assertions to verify expected behavior
-- Using explicit waits where necessary
-- Keeping test data and test logic organized
-- Documenting execution results and defects
+```text
+selenium-java-testng-automation/
+├── src/
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── samudrika/
+│                   └── qa/
+│                       └── BasicTest.java
+├── .gitignore
+├── pom.xml
+└── README.md
+```
 
-## Project Status
+## Prerequisites
 
-Initial setup and implementation are in progress. Test scenarios will be automated and documented as the project develops.
+- Java 17 or a compatible newer JDK
+- Maven
+- IntelliJ IDEA or another Java IDE
+- Google Chrome
 
 ## How to Run
 
-Run instructions and prerequisites will be added after the automation framework is configured.
+1. Clone or download this repository.
+2. Open the project in IntelliJ IDEA.
+3. Reload the Maven project.
+4. Configure valid demo credentials using a safe local configuration.
+5. Run the `BasicTest` TestNG test.
+
+Selenium Manager can manage the browser driver automatically in supported setups.
+
+## Notes
+
+This project uses a demo login application. Website availability, credentials, and page structure may change over time.
 
 ## Author
 
 Samudrika — QA Engineer | Aspiring SDET
+
