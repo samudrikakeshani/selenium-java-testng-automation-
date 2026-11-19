@@ -18,7 +18,7 @@ public class BasicTest {
     private WebDriver driver;
     private SoftAssert sa;
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeMethod
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
