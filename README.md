@@ -36,7 +36,11 @@ selenium-java-testng-automation/
 │                       └── BasicTest.java
 ├── .gitignore
 ├── pom.xml
-└── README.md
+├──README.md
+├──testng-regression.xml
+├──testng-sanity.xml
+└──testng-smoke.xml
+ 
 ```
 
 ## Prerequisites
