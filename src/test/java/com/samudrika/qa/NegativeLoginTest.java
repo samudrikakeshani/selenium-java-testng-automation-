@@ -19,7 +19,7 @@ public class NegativeLoginTest {
     private WebDriver driver;
     private WebDriverWait wait;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
